@@ -1,0 +1,45 @@
+.user-profile-page-loading {
+  padding: 20px;
+  text-align: center;
+}
+
+.user-profile-page-back-button {
+  margin: 10px !important;
+}
+
+.user-profile-page-title {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  padding: 4px;
+  background: white;
+  border-radius: 6px;
+}
+
+.user-profile-page-title > span {
+  display: inline-block;
+  position: relative;
+  margin-left: 8px;
+  font-size: 22px;
+}
+
+.user-profile-page-title input {
+  display: none;
+}
+
+.user-profile-page-delete-photo-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: white;
+  opacity: 0;
+  transition: all 150ms linear;
+}
+.user-profile-page-title:hover .user-profile-page-delete-photo-icon {
+  opacity: 1;
+}

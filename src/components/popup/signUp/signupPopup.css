@@ -1,0 +1,20 @@
+.sign-up-dialog-title {
+  text-align: center;
+}
+
+.sign-up-dialog-content {
+  padding: 20px 40px 40px 40px !important;
+  text-align: center;
+}
+
+.sign-up-dialog-content > p {
+  color: #666;
+}
+
+.sign-up-dialog-content > div {
+  margin-top: 25px;
+}
+
+.sign-up-dialog-content > div:last-child {
+  margin-top: 60px;
+}

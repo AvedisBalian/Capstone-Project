@@ -1,0 +1,21 @@
+.login-dialog-title {
+  text-align: center;
+  font-family: inherit;
+}
+
+.login-dialog-content {
+  padding: 20px 40px 40px 40px !important;
+  text-align: center;
+}
+
+.login-dialog-content p {
+  color: #666;
+}
+
+.login-dialog-content > div {
+  margin-top: 25px;
+}
+
+.login-dialog-content > div:last-child {
+  padding: 40px;
+}

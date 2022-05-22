@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Serif&display=swap');
+body {
+  background-color: #eee !important;
+}
+
+a,
+a:hover,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}

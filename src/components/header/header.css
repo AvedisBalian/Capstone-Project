@@ -1,0 +1,36 @@
+.header-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.header-categories ul {
+  list-style: none;
+}
+
+.header-categories li {
+  display: inline-block;
+}
+
+.header {
+  display: inline-block;
+}
+
+.header-buttons {
+  display: inline-block;
+}
+
+.header-buttons > * {
+  margin: 5px !important;
+}
+
+.header-add-post-button {
+  display: inline-block;
+}
